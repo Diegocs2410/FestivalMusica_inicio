@@ -1,0 +1,6 @@
+{
+    "editor.cursorBlinking": "smooth",
+    "editor.fontFamily": "'SourceCode', Consolas, 'Courier New', monospace",
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on"
+}

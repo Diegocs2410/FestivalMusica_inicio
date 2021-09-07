@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Festival de Rock</title>
+        <link rel="stylesheet" href="build/css/app.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="contenedor contenido-header">
+                <h1>Festival de Rock</h1>
+                <nav class="navegacion-principal">
+                    <a href="#lineup">Line Up</a>
+                    <a href="#galeria">Galeria</a>
+                    <a href="#boletas">Boletas</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Video con el overlay -->
+        <div class="video">
+            <div class="overlay">
+                <div class="contenedor contenido-video">
+                    <h2>
+                        Festival de Rock
+                        <span>Abril 2021, Rionegro, Antioquia</span>
+                    </h2>
+                </div>
+            </div>
+            <video muted loop autoplay>
+                <source src="/video/concierto.mp4" type="video/mp4" />
+                <source src="/video/concierto.ogg" type="video/ogg" />
+                <source src="/video/concierto.webm" type="video/webm" />
+            </video>
+        </div>
+        <!-- Sobre -->
+        <div class="sobre-festival contenedor">
+            <div class="imagen">
+                <img src="build/img/imagen_vocalista.jpg" alt="Vocalista" />
+            </div>
+            <div class="contenido-festival">
+                <h2>Rock y EDM Festival</h2>
+                <div class="fecha-texto">
+                    <p class="fecha">RIonegro Antioquia Arbil 10</p>
+                    <p class="texto">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Soluta ipsam nemo facilis eius aut animi optio nisi
+                        laudantium itaque rem, amet consectetur recusandae
+                        veniam commodi. Et, ratione? Iure, consectetur harum.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Line Up -->
+        <div class="line-up" id="lineup">
+            <h3>Line Up</h3>
+            <p class="dia">Viernes</p>
+            <div class="escenarios-contenedor contenedor">
+                <div class="escenario rock bg-amarillo">
+                    <p class="nombre-escenario">Escenario de Rock</p>
+                    <ul class="calendario">
+                        <li>24:00 / <span>Metallica</span></li>
+                        <li>22:00 / <span>Pearl Jam</span></li>
+                        <li>20:00 / <span>Korn</span></li>
+                        <li>19:00 / <span>Slipknot</span></li>
+                        <li>18:00 / <span>Metallica</span></li>
+                        <li>17:00 / <span>Pear Jam</span></li>
+                    </ul>
+                </div>
+
+                <div class="escenario edm bg-verde">
+                    <p class="nombre-escenario">Escenario de EDM</p>
+                    <ul class="calendario">
+                        <li>24:00 / <span>Metallica</span></li>
+                        <li>22:00 / <span>Pearl Jam</span></li>
+                        <li>20:00 / <span>Korn</span></li>
+                        <li>19:00 / <span>Slipknot</span></li>
+                        <li>18:00 / <span>Metallica</span></li>
+                        <li>17:00 / <span>Pear Jam</span></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="dia">Sábado</p>
+            <div class="escenarios-contenedor contenedor">
+                <div class="escenario rock bg-verde">
+                    <p class="nombre-escenario">Escenario de Rock</p>
+                    <ul class="calendario">
+                        <li>24:00 / <span>Metallica</span></li>
+                        <li>22:00 / <span>Pearl Jam</span></li>
+                        <li>20:00 / <span>Korn</span></li>
+                        <li>19:00 / <span>Slipknot</span></li>
+                        <li>18:00 / <span>Metallica</span></li>
+                        <li>17:00 / <span>Pear Jam</span></li>
+                    </ul>
+                </div>
+
+                <div class="escenario edm bg-amarillo">
+                    <p class="nombre-escenario">Escenario de EDM</p>
+                    <ul class="calendario">
+                        <li>24:00 / <span>Metallica</span></li>
+                        <li>22:00 / <span>Pearl Jam</span></li>
+                        <li>20:00 / <span>Korn</span></li>
+                        <li>19:00 / <span>Slipknot</span></li>
+                        <li>18:00 / <span>Metallica</span></li>
+                        <li>17:00 / <span>Pear Jam</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Galeria -->
+        <section class="galeria contenedor" id="galeria">
+            <h3>Galeria</h3>
+            <ul class="galeria-imagenes"></ul>
+        </section>
+        <!-- Seccion boletas -->
+        <section class="boletos bg-verde" id="boletas">
+            <h3>boletos</h3>
+            <div class="contenedor-boletos contenedor">
+                <div class="basico plan">
+                    <p>Pase 1 día</p>
+                    <table class="pase">
+                        <thead>
+                            <tr>
+                                <th>Incluye</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Acceso a todos los escenarios</td>
+                            </tr>
+                            <tr>
+                                <td>Comida y Bebida</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>$ 100</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <div class="premium plan">
+                    <p>Pase 2 día</p>
+                    <table class="pase">
+                        <thead>
+                            <tr>
+                                <th>Incluye</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Acceso a todos los escenarios</td>
+                            </tr>
+                            <tr>
+                                <td>Comida y Bebida</td>
+                            </tr>
+                            <tr>
+                                <td>Camisa del evento</td>
+                            </tr>
+                            <tr>
+                                <td>Acceso VIP</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>$ 100</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Todos los derechos reservados &copy; 2021</p>
+        </footer>
+        <script src="build/js/bundle.js"></script>
+    </body>
+</html>

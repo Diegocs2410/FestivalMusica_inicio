@@ -1,0 +1,40 @@
+.header {
+    background: $verde;
+    transition: all 0.3s;
+    .contenido-header {
+        padding: $separacion/4 0;
+        @include telefono {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
+    h1 {
+        color: $blanco;
+        text-align: center;
+        @include telefono {
+            margin-bottom: 0;
+        }
+    }
+    &.fijo {
+        position: fixed;
+        width: 100%;
+        box-shadow: 0 0.1rem 0.6rem #534e4e;
+        transition: all 0.5s;
+    }
+}
+.navegacion-principal {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    a {
+        color: $blanco;
+        font-size: 2rem;
+        transition: $transicion;
+        &:hover {
+            color: $amarillo;
+            transition: $transicion;
+            transform: scale(1.2);
+        }
+    }
+}
